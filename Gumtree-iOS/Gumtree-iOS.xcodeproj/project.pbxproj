@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4669CAC41B69C04B009B81EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669CAC31B69C04B009B81EC /* main.m */; };
+		4669CAC71B69C04B009B81EC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4669CAC61B69C04B009B81EC /* AppDelegate.mm */; };
+		4669CACA1B69C04B009B81EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669CAC91B69C04B009B81EC /* ViewController.m */; };
+		4669CACD1B69C04B009B81EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669CACB1B69C04B009B81EC /* Main.storyboard */; };
+		4669CACF1B69C04B009B81EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4669CACE1B69C04B009B81EC /* Images.xcassets */; };
+		4669CAD21B69C04B009B81EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4669CAD01B69C04B009B81EC /* LaunchScreen.xib */; };
+		4669CADE1B69C04C009B81EC /* Gumtree_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4669CADD1B69C04C009B81EC /* Gumtree_iOSTests.m */; };
+		467322371B6F5E0500DC1C48 /* libGumtreeNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46655A5B1B6F5CE500227A8A /* libGumtreeNet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46655A5A1B6F5CE500227A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465666731B6DA5D4006F03F3 /* GumtreeNet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666591B6DA5D4006F03F3;
+			remoteInfo = GumtreeNet;
+		};
+		46655A5C1B6F5CE500227A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465666731B6DA5D4006F03F3 /* GumtreeNet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666641B6DA5D4006F03F3;
+			remoteInfo = GumtreeNetTests;
+		};
+		4669CAD81B69C04B009B81EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4669CAB61B69C04B009B81EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4669CABD1B69C04B009B81EC;
+			remoteInfo = "Gumtree-iOS";
+		};
+		467322381B6F5E1A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465666731B6DA5D4006F03F3 /* GumtreeNet.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 465666581B6DA5D4006F03F3;
+			remoteInfo = GumtreeNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		465666731B6DA5D4006F03F3 /* GumtreeNet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GumtreeNet.xcodeproj; path = ../GumtreeNet/GumtreeNet.xcodeproj; sourceTree = "<group>"; };
+		4669CABE1B69C04B009B81EC /* Gumtree-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gumtree-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669CAC21B69C04B009B81EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4669CAC31B69C04B009B81EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4669CAC51B69C04B009B81EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4669CAC61B69C04B009B81EC /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		4669CAC81B69C04B009B81EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4669CAC91B69C04B009B81EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4669CACC1B69C04B009B81EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4669CACE1B69C04B009B81EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4669CAD11B69C04B009B81EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4669CAD71B69C04B009B81EC /* Gumtree-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gumtree-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669CADC1B69C04C009B81EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4669CADD1B69C04C009B81EC /* Gumtree_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gumtree_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4669CABB1B69C04B009B81EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467322371B6F5E0500DC1C48 /* libGumtreeNet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669CAD41B69C04B009B81EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46655A561B6F5CE500227A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46655A5B1B6F5CE500227A8A /* libGumtreeNet.a */,
+				46655A5D1B6F5CE500227A8A /* GumtreeNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4669CAB51B69C04B009B81EC = {
+			isa = PBXGroup;
+			children = (
+				4669CAC01B69C04B009B81EC /* Gumtree-iOS */,
+				4669CADA1B69C04B009B81EC /* Gumtree-iOSTests */,
+				4669CABF1B69C04B009B81EC /* Products */,
+				465666731B6DA5D4006F03F3 /* GumtreeNet.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		4669CABF1B69C04B009B81EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4669CABE1B69C04B009B81EC /* Gumtree-iOS.app */,
+				4669CAD71B69C04B009B81EC /* Gumtree-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4669CAC01B69C04B009B81EC /* Gumtree-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4669CAC51B69C04B009B81EC /* AppDelegate.h */,
+				4669CAC61B69C04B009B81EC /* AppDelegate.mm */,
+				4669CAC81B69C04B009B81EC /* ViewController.h */,
+				4669CAC91B69C04B009B81EC /* ViewController.m */,
+				4669CACB1B69C04B009B81EC /* Main.storyboard */,
+				4669CACE1B69C04B009B81EC /* Images.xcassets */,
+				4669CAD01B69C04B009B81EC /* LaunchScreen.xib */,
+				4669CAC11B69C04B009B81EC /* Supporting Files */,
+			);
+			path = "Gumtree-iOS";
+			sourceTree = "<group>";
+		};
+		4669CAC11B69C04B009B81EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4669CAC21B69C04B009B81EC /* Info.plist */,
+				4669CAC31B69C04B009B81EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4669CADA1B69C04B009B81EC /* Gumtree-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4669CADD1B69C04C009B81EC /* Gumtree_iOSTests.m */,
+				4669CADB1B69C04B009B81EC /* Supporting Files */,
+			);
+			path = "Gumtree-iOSTests";
+			sourceTree = "<group>";
+		};
+		4669CADB1B69C04B009B81EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4669CADC1B69C04C009B81EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4669CABD1B69C04B009B81EC /* Gumtree-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669CAE11B69C04C009B81EC /* Build configuration list for PBXNativeTarget "Gumtree-iOS" */;
+			buildPhases = (
+				4669CABA1B69C04B009B81EC /* Sources */,
+				4669CABB1B69C04B009B81EC /* Frameworks */,
+				4669CABC1B69C04B009B81EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467322391B6F5E1A00DC1C48 /* PBXTargetDependency */,
+			);
+			name = "Gumtree-iOS";
+			productName = "Gumtree-iOS";
+			productReference = 4669CABE1B69C04B009B81EC /* Gumtree-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4669CAD61B69C04B009B81EC /* Gumtree-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669CAE41B69C04C009B81EC /* Build configuration list for PBXNativeTarget "Gumtree-iOSTests" */;
+			buildPhases = (
+				4669CAD31B69C04B009B81EC /* Sources */,
+				4669CAD41B69C04B009B81EC /* Frameworks */,
+				4669CAD51B69C04B009B81EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4669CAD91B69C04B009B81EC /* PBXTargetDependency */,
+			);
+			name = "Gumtree-iOSTests";
+			productName = "Gumtree-iOSTests";
+			productReference = 4669CAD71B69C04B009B81EC /* Gumtree-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4669CAB61B69C04B009B81EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Justin Liu";
+				TargetAttributes = {
+					4669CABD1B69C04B009B81EC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4669CAD61B69C04B009B81EC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4669CABD1B69C04B009B81EC;
+					};
+				};
+			};
+			buildConfigurationList = 4669CAB91B69C04B009B81EC /* Build configuration list for PBXProject "Gumtree-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4669CAB51B69C04B009B81EC;
+			productRefGroup = 4669CABF1B69C04B009B81EC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46655A561B6F5CE500227A8A /* Products */;
+					ProjectRef = 465666731B6DA5D4006F03F3 /* GumtreeNet.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4669CABD1B69C04B009B81EC /* Gumtree-iOS */,
+				4669CAD61B69C04B009B81EC /* Gumtree-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46655A5B1B6F5CE500227A8A /* libGumtreeNet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGumtreeNet.a;
+			remoteRef = 46655A5A1B6F5CE500227A8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46655A5D1B6F5CE500227A8A /* GumtreeNetTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GumtreeNetTests.xctest;
+			remoteRef = 46655A5C1B6F5CE500227A8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4669CABC1B69C04B009B81EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669CACD1B69C04B009B81EC /* Main.storyboard in Resources */,
+				4669CAD21B69C04B009B81EC /* LaunchScreen.xib in Resources */,
+				4669CACF1B69C04B009B81EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669CAD51B69C04B009B81EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4669CABA1B69C04B009B81EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669CACA1B69C04B009B81EC /* ViewController.m in Sources */,
+				4669CAC71B69C04B009B81EC /* AppDelegate.mm in Sources */,
+				4669CAC41B69C04B009B81EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669CAD31B69C04B009B81EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669CADE1B69C04C009B81EC /* Gumtree_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4669CAD91B69C04B009B81EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4669CABD1B69C04B009B81EC /* Gumtree-iOS */;
+			targetProxy = 4669CAD81B69C04B009B81EC /* PBXContainerItemProxy */;
+		};
+		467322391B6F5E1A00DC1C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GumtreeNet;
+			targetProxy = 467322381B6F5E1A00DC1C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4669CACB1B69C04B009B81EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4669CACC1B69C04B009B81EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4669CAD01B69C04B009B81EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4669CAD11B69C04B009B81EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4669CADF1B69C04C009B81EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4669CAE01B69C04C009B81EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4669CAE21B69C04C009B81EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../GumtreeNet/GumtreeNet",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Gumtree-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4669CAE31B69C04C009B81EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../GumtreeNet/GumtreeNet",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Gumtree-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4669CAE51B69C04C009B81EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gumtree-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gumtree-iOS.app/Gumtree-iOS";
+			};
+			name = Debug;
+		};
+		4669CAE61B69C04C009B81EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gumtree-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gumtree-iOS.app/Gumtree-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4669CAB91B69C04B009B81EC /* Build configuration list for PBXProject "Gumtree-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669CADF1B69C04C009B81EC /* Debug */,
+				4669CAE01B69C04C009B81EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669CAE11B69C04C009B81EC /* Build configuration list for PBXNativeTarget "Gumtree-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669CAE21B69C04C009B81EC /* Debug */,
+				4669CAE31B69C04C009B81EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669CAE41B69C04C009B81EC /* Build configuration list for PBXNativeTarget "Gumtree-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669CAE51B69C04C009B81EC /* Debug */,
+				4669CAE61B69C04C009B81EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4669CAB61B69C04B009B81EC /* Project object */;
+}

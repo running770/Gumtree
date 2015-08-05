@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465666651B6DA5D4006F03F3 /* libGumtreeNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465666591B6DA5D4006F03F3 /* libGumtreeNet.a */; };
+		46566D591B6E03DC006F03F3 /* GumtreeClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46566D571B6E03DC006F03F3 /* GumtreeClient.cpp */; };
+		46566D651B6E2180006F03F3 /* GTAd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46566D631B6E2180006F03F3 /* GTAd.cpp */; };
+		46566D681B6E2190006F03F3 /* GTAdQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46566D661B6E2190006F03F3 /* GTAdQuery.cpp */; };
+		46566D6B1B6E21A2006F03F3 /* GTAdQueryRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46566D691B6E21A2006F03F3 /* GTAdQueryRequest.cpp */; };
+		46566D6E1B6E21B0006F03F3 /* GTAdQueryResponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46566D6C1B6E21B0006F03F3 /* GTAdQueryResponse.cpp */; };
+		46566D741B6F12D5006F03F3 /* GTAdPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46566D721B6F12D5006F03F3 /* GTAdPage.cpp */; };
+		467322321B6F5DD200DC1C48 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467322171B6F5D5A00DC1C48 /* libPocoFoundation.a */; };
+		467322331B6F5DD500DC1C48 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4673221B1B6F5D5A00DC1C48 /* libPocoNet.a */; };
+		467322341B6F5DD700DC1C48 /* libPocoJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4673221F1B6F5D5A00DC1C48 /* libPocoJSON.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465666661B6DA5D4006F03F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465666511B6DA5D4006F03F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465666581B6DA5D4006F03F3;
+			remoteInfo = GumtreeNet;
+		};
+		467322121B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666851B6DA654006F03F3;
+			remoteInfo = Poco;
+		};
+		467322141B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666901B6DA655006F03F3;
+			remoteInfo = PocoTests;
+		};
+		467322161B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666AC1B6DA667006F03F3;
+			remoteInfo = PocoFoundation;
+		};
+		467322181B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666B61B6DA667006F03F3;
+			remoteInfo = PocoFoundationTests;
+		};
+		4673221A1B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666C71B6DA670006F03F3;
+			remoteInfo = PocoNet;
+		};
+		4673221C1B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666D11B6DA671006F03F3;
+			remoteInfo = PocoNetTests;
+		};
+		4673221E1B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666E21B6DA67A006F03F3;
+			remoteInfo = PocoJSON;
+		};
+		467322201B6F5D5A00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 465666EC1B6DA67B006F03F3;
+			remoteInfo = PocoJSONTests;
+		};
+		4673222C1B6F5DCC00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 465666AB1B6DA667006F03F3;
+			remoteInfo = PocoFoundation;
+		};
+		4673222E1B6F5DCC00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 465666C61B6DA670006F03F3;
+			remoteInfo = PocoNet;
+		};
+		467322301B6F5DCC00DC1C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 465666E11B6DA67A006F03F3;
+			remoteInfo = PocoJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		465666571B6DA5D4006F03F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		465666591B6DA5D4006F03F3 /* libGumtreeNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGumtreeNet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		465666641B6DA5D4006F03F3 /* GumtreeNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GumtreeNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4656666A1B6DA5D4006F03F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4656669F1B6DA655006F03F3 /* Poco.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Poco.xcodeproj; path = Poco/Poco.xcodeproj; sourceTree = "<group>"; };
+		46566D571B6E03DC006F03F3 /* GumtreeClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GumtreeClient.cpp; sourceTree = "<group>"; };
+		46566D581B6E03DC006F03F3 /* GumtreeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeClient.h; sourceTree = "<group>"; };
+		46566D631B6E2180006F03F3 /* GTAd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTAd.cpp; sourceTree = "<group>"; };
+		46566D641B6E2180006F03F3 /* GTAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAd.h; sourceTree = "<group>"; };
+		46566D661B6E2190006F03F3 /* GTAdQuery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTAdQuery.cpp; sourceTree = "<group>"; };
+		46566D671B6E2190006F03F3 /* GTAdQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAdQuery.h; sourceTree = "<group>"; };
+		46566D691B6E21A2006F03F3 /* GTAdQueryRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTAdQueryRequest.cpp; sourceTree = "<group>"; };
+		46566D6A1B6E21A2006F03F3 /* GTAdQueryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAdQueryRequest.h; sourceTree = "<group>"; };
+		46566D6C1B6E21B0006F03F3 /* GTAdQueryResponse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTAdQueryResponse.cpp; sourceTree = "<group>"; };
+		46566D6D1B6E21B0006F03F3 /* GTAdQueryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAdQueryResponse.h; sourceTree = "<group>"; };
+		46566D721B6F12D5006F03F3 /* GTAdPage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTAdPage.cpp; sourceTree = "<group>"; };
+		46566D731B6F12D5006F03F3 /* GTAdPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAdPage.h; sourceTree = "<group>"; };
+		467322421B6F626900DC1C48 /* Gumtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gumtree.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465666561B6DA5D4006F03F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467322321B6F5DD200DC1C48 /* libPocoFoundation.a in Frameworks */,
+				467322331B6F5DD500DC1C48 /* libPocoNet.a in Frameworks */,
+				467322341B6F5DD700DC1C48 /* libPocoJSON.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465666611B6DA5D4006F03F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465666651B6DA5D4006F03F3 /* libGumtreeNet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465666501B6DA5D4006F03F3 = {
+			isa = PBXGroup;
+			children = (
+				4656665B1B6DA5D4006F03F3 /* GumtreeNet */,
+				465666681B6DA5D4006F03F3 /* GumtreeNetTests */,
+				4656665A1B6DA5D4006F03F3 /* Products */,
+				4656669F1B6DA655006F03F3 /* Poco.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		4656665A1B6DA5D4006F03F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465666591B6DA5D4006F03F3 /* libGumtreeNet.a */,
+				465666641B6DA5D4006F03F3 /* GumtreeNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4656665B1B6DA5D4006F03F3 /* GumtreeNet */ = {
+			isa = PBXGroup;
+			children = (
+				46566D571B6E03DC006F03F3 /* GumtreeClient.cpp */,
+				46566D581B6E03DC006F03F3 /* GumtreeClient.h */,
+				46566D631B6E2180006F03F3 /* GTAd.cpp */,
+				46566D641B6E2180006F03F3 /* GTAd.h */,
+				46566D661B6E2190006F03F3 /* GTAdQuery.cpp */,
+				46566D671B6E2190006F03F3 /* GTAdQuery.h */,
+				46566D691B6E21A2006F03F3 /* GTAdQueryRequest.cpp */,
+				46566D6A1B6E21A2006F03F3 /* GTAdQueryRequest.h */,
+				46566D6C1B6E21B0006F03F3 /* GTAdQueryResponse.cpp */,
+				46566D6D1B6E21B0006F03F3 /* GTAdQueryResponse.h */,
+				46566D721B6F12D5006F03F3 /* GTAdPage.cpp */,
+				46566D731B6F12D5006F03F3 /* GTAdPage.h */,
+				467322421B6F626900DC1C48 /* Gumtree.h */,
+			);
+			path = GumtreeNet;
+			sourceTree = "<group>";
+		};
+		465666681B6DA5D4006F03F3 /* GumtreeNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				465666691B6DA5D4006F03F3 /* Supporting Files */,
+			);
+			path = GumtreeNetTests;
+			sourceTree = "<group>";
+		};
+		465666691B6DA5D4006F03F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4656666A1B6DA5D4006F03F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		467322081B6F5D5A00DC1C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467322131B6F5D5A00DC1C48 /* libPoco.a */,
+				467322151B6F5D5A00DC1C48 /* PocoTests.xctest */,
+				467322171B6F5D5A00DC1C48 /* libPocoFoundation.a */,
+				467322191B6F5D5A00DC1C48 /* PocoFoundationTests.xctest */,
+				4673221B1B6F5D5A00DC1C48 /* libPocoNet.a */,
+				4673221D1B6F5D5A00DC1C48 /* PocoNetTests.xctest */,
+				4673221F1B6F5D5A00DC1C48 /* libPocoJSON.a */,
+				467322211B6F5D5A00DC1C48 /* PocoJSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465666581B6DA5D4006F03F3 /* GumtreeNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4656666D1B6DA5D4006F03F3 /* Build configuration list for PBXNativeTarget "GumtreeNet" */;
+			buildPhases = (
+				465666551B6DA5D4006F03F3 /* Sources */,
+				465666561B6DA5D4006F03F3 /* Frameworks */,
+				465666571B6DA5D4006F03F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4673222D1B6F5DCC00DC1C48 /* PBXTargetDependency */,
+				4673222F1B6F5DCC00DC1C48 /* PBXTargetDependency */,
+				467322311B6F5DCC00DC1C48 /* PBXTargetDependency */,
+			);
+			name = GumtreeNet;
+			productName = GumtreeNet;
+			productReference = 465666591B6DA5D4006F03F3 /* libGumtreeNet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		465666631B6DA5D4006F03F3 /* GumtreeNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465666701B6DA5D4006F03F3 /* Build configuration list for PBXNativeTarget "GumtreeNetTests" */;
+			buildPhases = (
+				465666601B6DA5D4006F03F3 /* Sources */,
+				465666611B6DA5D4006F03F3 /* Frameworks */,
+				465666621B6DA5D4006F03F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465666671B6DA5D4006F03F3 /* PBXTargetDependency */,
+			);
+			name = GumtreeNetTests;
+			productName = GumtreeNetTests;
+			productReference = 465666641B6DA5D4006F03F3 /* GumtreeNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465666511B6DA5D4006F03F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Justin Liu";
+				TargetAttributes = {
+					465666581B6DA5D4006F03F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					465666631B6DA5D4006F03F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 465666541B6DA5D4006F03F3 /* Build configuration list for PBXProject "GumtreeNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 465666501B6DA5D4006F03F3;
+			productRefGroup = 4656665A1B6DA5D4006F03F3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 467322081B6F5D5A00DC1C48 /* Products */;
+					ProjectRef = 4656669F1B6DA655006F03F3 /* Poco.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				465666581B6DA5D4006F03F3 /* GumtreeNet */,
+				465666631B6DA5D4006F03F3 /* GumtreeNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		467322131B6F5D5A00DC1C48 /* libPoco.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPoco.a;
+			remoteRef = 467322121B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467322151B6F5D5A00DC1C48 /* PocoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PocoTests.xctest;
+			remoteRef = 467322141B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467322171B6F5D5A00DC1C48 /* libPocoFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPocoFoundation.a;
+			remoteRef = 467322161B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467322191B6F5D5A00DC1C48 /* PocoFoundationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PocoFoundationTests.xctest;
+			remoteRef = 467322181B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4673221B1B6F5D5A00DC1C48 /* libPocoNet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPocoNet.a;
+			remoteRef = 4673221A1B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4673221D1B6F5D5A00DC1C48 /* PocoNetTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PocoNetTests.xctest;
+			remoteRef = 4673221C1B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4673221F1B6F5D5A00DC1C48 /* libPocoJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPocoJSON.a;
+			remoteRef = 4673221E1B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467322211B6F5D5A00DC1C48 /* PocoJSONTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PocoJSONTests.xctest;
+			remoteRef = 467322201B6F5D5A00DC1C48 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465666621B6DA5D4006F03F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465666551B6DA5D4006F03F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46566D741B6F12D5006F03F3 /* GTAdPage.cpp in Sources */,
+				46566D6B1B6E21A2006F03F3 /* GTAdQueryRequest.cpp in Sources */,
+				46566D6E1B6E21B0006F03F3 /* GTAdQueryResponse.cpp in Sources */,
+				46566D681B6E2190006F03F3 /* GTAdQuery.cpp in Sources */,
+				46566D591B6E03DC006F03F3 /* GumtreeClient.cpp in Sources */,
+				46566D651B6E2180006F03F3 /* GTAd.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465666601B6DA5D4006F03F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465666671B6DA5D4006F03F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465666581B6DA5D4006F03F3 /* GumtreeNet */;
+			targetProxy = 465666661B6DA5D4006F03F3 /* PBXContainerItemProxy */;
+		};
+		4673222D1B6F5DCC00DC1C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocoFoundation;
+			targetProxy = 4673222C1B6F5DCC00DC1C48 /* PBXContainerItemProxy */;
+		};
+		4673222F1B6F5DCC00DC1C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocoNet;
+			targetProxy = 4673222E1B6F5DCC00DC1C48 /* PBXContainerItemProxy */;
+		};
+		467322311B6F5DCC00DC1C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocoJSON;
+			targetProxy = 467322301B6F5DCC00DC1C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4656666B1B6DA5D4006F03F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4656666C1B6DA5D4006F03F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4656666E1B6DA5D4006F03F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../poco-1.6.0/Foundation/include",
+					"$(SRCROOT)/../poco-1.6.0/JSON/include",
+					"$(SRCROOT)/../poco-1.6.0/Net/include",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4656666F1B6DA5D4006F03F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../poco-1.6.0/Foundation/include",
+					"$(SRCROOT)/../poco-1.6.0/JSON/include",
+					"$(SRCROOT)/../poco-1.6.0/Net/include",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		465666711B6DA5D4006F03F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GumtreeNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		465666721B6DA5D4006F03F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GumtreeNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465666541B6DA5D4006F03F3 /* Build configuration list for PBXProject "GumtreeNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4656666B1B6DA5D4006F03F3 /* Debug */,
+				4656666C1B6DA5D4006F03F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4656666D1B6DA5D4006F03F3 /* Build configuration list for PBXNativeTarget "GumtreeNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4656666E1B6DA5D4006F03F3 /* Debug */,
+				4656666F1B6DA5D4006F03F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465666701B6DA5D4006F03F3 /* Build configuration list for PBXNativeTarget "GumtreeNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465666711B6DA5D4006F03F3 /* Debug */,
+				465666721B6DA5D4006F03F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465666511B6DA5D4006F03F3 /* Project object */;
+}

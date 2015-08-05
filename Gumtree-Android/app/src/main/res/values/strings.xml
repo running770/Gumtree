@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gumtree</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gtad_web_view">Ad Information</string>
+    <string name="search_hint">baby</string>
+    <string name="action_search">search</string>
+</resources>
